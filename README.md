@@ -5,7 +5,7 @@ Build my own web version of ChatGPT using its API, together with the latest (as 
 Special thanks to **[OpsConfig](https://github.com/OpsConfig/OpenAI_Lab/tree/main/chatgpt)**, his demo code provides a foundation of this repository.
 
 ## Special?
-Not special, but it can fulfill the basic function. It **remembers** the previous cponversation, it also shows the **full** conversation on the same page.
+Not special, but it can fulfill the basic function. It **remembers** the previous conversation, it also shows the **full** conversation on the same page.
 
 ## Requirement
 - Installation of **[openai](https://pypi.org/project/openai/)** and **[gradio](https://pypi.org/project/gradio/)**
