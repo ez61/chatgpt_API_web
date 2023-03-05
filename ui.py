@@ -3,7 +3,7 @@ import openai
 import gradio as gr
 
 openai.api_key = "Your API key here"
-openai.organization = os.getenv("Org IDf") 
+openai.organization = os.getenv("Org ID") 
 
 conversation=[{"role": "system", "content": "Here is our full conversation in case you need:"}]
 
@@ -18,13 +18,13 @@ def chatbot(query):
         top_p=0.9
     )
     conversation.append({"role": "assistant", "content": response['choices'][0]['message']['content']})
-    return response['choices'][0]['message']['content'], "\n\n".join(c['content'] for c in conversation)
+    return response['usage']['total_tokens'],response['choices'][0]['message']['content'], "\n\n".join(c['content'] for c in conversation)
 
 interface = gr.Interface(
     fn=chatbot,
     title="My Chat Assistant",
     inputs=gr.inputs.components.Textbox(label="Query", placeholder="Ask me a question"),
-    outputs=[gr.outputs.components.Textbox(label="Response"), gr.outputs.components.Textbox(label="Full Conversation")],
+    outputs=[gr.outputs.components.Textbox(label="Tokens Used"),gr.outputs.components.Textbox(label="Response"), gr.outputs.components.Textbox(label="Full Conversation")],
 )
 
 interface.launch()
