@@ -21,6 +21,12 @@ Not special, but it can fulfill the basic function. It **remembers** the previou
 - Download the 2 files and edit them (*API key* and *Org ID* in the **.py** file, *path-to-python-code* and *URL* in the **.app** script)
 - Double-click the **ChatGPT_API.app** to start your own UI.
 
+
+### Update history
+
+- Added a **Tokens Used** textbox on the right, to show the tokens consumed for this chat.
+![demo of updated ui](/demo_ui_updated_5Mar2023.jpg)
+
 ## Demo ui
 ![demo ui](/demo_ui.png)
 
