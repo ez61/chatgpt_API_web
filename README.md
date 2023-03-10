@@ -23,7 +23,11 @@ Not special, but it can fulfill the basic function. It **remembers** the previou
 
 
 ### Update history
+#### 10 March 2023: 
+- Now supports **Google Chrome** and **Brave Browser** if you are not using **Safari** browser as I initially built. Please check [For_Chrome_browser.app](https://github.com/ez61/chatgpt_API_web/blob/main/For_Chrome_browser.app) for **Google Chrome** browser users, or if you're using **Brave Browser**, just get the same file for Chrome, and replace **Google Chrome** with **Brave Browser** in the .app file.
+- Also when running the .app script, it will check if your preferred browser is active. If not, it will activate your chosen browser, go to the specified URL such as `http://127.0.0.1:7860`, and bring the UI to the front.
 
+#### 5 March 2023
 - Added a **Tokens Used** textbox on the right, to show the tokens consumed for this chat.
 ![demo of updated ui](/demo_ui_updated_5Mar2023.jpg)
 
