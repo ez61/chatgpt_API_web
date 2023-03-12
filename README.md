@@ -45,6 +45,9 @@ Sit back and enjoy!
 
 I live in Melbourne and I LOVE coffee. If you find this useful and want to support me, you can [**buy me a coffee**](https://www.buymeacoffee.com/ez61). Thanks.
 
+## Buy me a coffee
+
+I live in Melbourne and I LOVE coffee. If you want to support me, you can [**buy me a coffee**](https://www.buymeacoffee.com/ez61). Thanks.
 
 ## FAQ
 
