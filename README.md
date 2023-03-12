@@ -27,10 +27,6 @@ Special thanks to **[OpsConfig](https://github.com/OpsConfig/OpenAI_Lab/tree/mai
 - Mac (to use the **Script Editor** to build a **launcher** which actually opens the chat UI in a browser tab)
 - OpenAI **API key**
 
-#### Note
-- The file **ChatGPT_API.app** in this repository was created by **Script Editor** on mac, so you can use **Script Editor** to open and edit.
-- **ui.py** contains the Python code you need to execute your chat commands.
-- If the browser tab shows nothing, refresh the page.
 
 #### Steps
 
@@ -45,24 +41,21 @@ Sit back and enjoy!
 
 I live in Melbourne and I LOVE coffee. If you find this useful and want to support me, you can [**buy me a coffee**](https://www.buymeacoffee.com/ez61). Thanks.
 
-## Buy me a coffee
-
-I live in Melbourne and I LOVE coffee. If you want to support me, you can [**buy me a coffee**](https://www.buymeacoffee.com/ez61). Thanks.
 
 ## FAQ
 
-*1. Can I still use this if I'm using Windows?*
+##### 1. Can I still use this if I'm using Windows?
 
 The `ui.py` can still be used on Windows if you're using Jupyter Notebook. However, the `.app` files for either Safari or Chrome browsers are built for Mac OS users. Here, the `.app` file works as a **launcher** or **wrapper** to start your chat UI without the need to type code in the Terminal every time.
 
-*2. What is URL used in the `.app` file?*
+##### 2. What is URL used in the `.app` file?
 
 The default URL is `http://127.0.0.1:7860`. The first time you start your **launcher** your chat UI will be on the default URL. If you have an active chat UI, and you start the second chat UI, the URL will be different, e.g. with port 7861 etc. If you want to find out, head to your Terminal and you will see the URL.
 
-*3. What if I'm using Brave Browser?*
+##### 3. What if I'm using Brave Browser?
 
 Refer to **Update history** on 10 March 2023 listed above.
 
-*4. My chat UI page cannot be reached?*
+##### 4. My chat UI page cannot be reached?
 
 Refresh the page and you will be okay to go. This is because in the `.app` file, we first execute the `ui.py` file to prepare the running environment before the chat UI page can be shown correctly. If you are seeing this error in Safari, don't panic, refresh the page will fix this. If you're using Google Chrome or Brave Browser, the page will be automatically refreshed.
