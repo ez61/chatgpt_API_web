@@ -31,6 +31,9 @@ Not special, but it can fulfill the basic function. It **remembers** the previou
 - Download the 2 files and edit them (*API key* and *Org ID* in the **.py** file, *path-to-python-code* and *URL* in the **.app** script)
 - Double-click the **ChatGPT_API.app** to start your own UI.
 
+## Buy me a coffee
+
+I live in Melbourne and I LOVE coffee. If you want to support me, you can [**buy me a coffee**](https://www.buymeacoffee.com/ez61). Thanks.
 
 ## Demo ui
 ![demo ui](/demo_ui.png)
