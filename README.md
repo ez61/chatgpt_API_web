@@ -37,10 +37,6 @@ Special thanks to **[OpsConfig](https://github.com/OpsConfig/OpenAI_Lab/tree/mai
 
 Sit back and enjoy!
 
-## Buy me a coffee
-
-I live in Melbourne and I LOVE coffee. If you find this useful and want to support me, you can [**buy me a coffee**](https://www.buymeacoffee.com/ez61). Thanks.
-
 
 ## FAQ
 
